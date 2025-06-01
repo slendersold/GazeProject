@@ -1,0 +1,26 @@
+{
+    "pth_sgn": "\\",
+    "PATH_TO_INPUT": "..\\DATA\\Participant data instance\\S02\\For YOLO\\prepaired\\index 1\\",
+    "PATH_TO_RESULTS": "..\\DATA\\Participant data instance\\S02\\For YOLO\\Results\\index 1\\",
+    "PATH_TO_TRUEMASKS": "..\\DATA\\Participant data instance\\S02\\For YOLO\\Results\\index 1\\S02_true_masks\\",
+    "PATH_TO_EXPMASKS": "..\\DATA\\Participant data instance\\S02\\For YOLO\\Results\\index 1\\mask_exp11\\",
+    "gaze_data_keys": [
+        "raw"
+    ],
+    "gaze_data_file": {
+        "raw": "gaze_positions.csv"
+    },
+    "input_video": "world.mp4",
+    "output_video": "segmented_video.mp4",
+    "output_dataframe": "output_dataframe.csv",
+    "output_dataframe_all": "output_dataframe_all.csv",
+    "segmentation_classes": [
+        "base",
+        "object",
+        "prosthesis",
+        "target"
+    ],
+    "Yolo_model_wheight": "..\\DATA\\weights\\YOLO11seg(02.10).pt",
+    "sam2_checkpoint": "..\\sam2\\checkpoints\\sam2_hiera_large.pt",
+    "sam_model_weight": "..\\DATA\\weights\\sam2_large_protesis.pth"
+}

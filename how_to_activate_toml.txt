@@ -1,0 +1,6 @@
+python3 -m pip install build
+python3 -m build
+
+cd ../segment-anything-2
+pip install -e . -q
+python setup.py build_ext --inplace

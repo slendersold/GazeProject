@@ -1,0 +1,6 @@
+__pycache__
+runs/
+*.pt
+execution_time_log.txt
+*.png
+*.yml

@@ -1,0 +1,19 @@
+# may wary by your GPU generation and driver version:
+--index-url https://download.pytorch.org/whl/cu124
+# PyPI path for all other packages besides pytorch:
+--extra-index-url=https://pypi.org/simple
+torch
+torchvision
+torchaudio
+ipykernel
+ipywidgets
+scipy
+matplotlib
+pillow
+numpy
+pandas
+ultralytics
+supervision
+line-profiler
+black
+jupyter-black
